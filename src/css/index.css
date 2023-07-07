@@ -1,0 +1,146 @@
+
+body {
+  height: 100vh;
+  width: 100vw;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, Arial, sans-serif;
+}
+
+label {
+  font-weight: 700;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+#app {
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+a:focus,
+a:hover {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: none;
+}
+
+div:focus {
+  outline: none;
+}
+
+/* .clearfix {
+  &:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+  }
+} */
+
+.mgl10 {
+  margin-left: 10px
+}
+
+.mgr10 {
+  margin-right: 10px
+}
+.mgb5 {
+  margin-bottom: 5px
+}
+.mgt10 {
+  margin-top: 10px
+}
+.mgb10 {
+  margin-bottom: 10px
+}
+.mgb20 {
+  margin-bottom: 10px
+}
+.flex-cc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex-ca {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-cb {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.flex-col-sc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.border-common {
+  border-radius: 5px;
+  border:1px solid rgb(177, 171, 171);
+}
+.pd5 {
+  padding: 5px
+}
+.pd10 {
+  padding: 10px
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+
+*::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;
+  background-color: transparent;
+}
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+*::-webkit-scrollbar-track {
+  background-color: white;
+}
+
+/*定义滚动条轨道 内阴影+圆角*/
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 6px;
+}
+
+/*定义滑块 内阴影+圆角*/
+.scrollbarHide::-webkit-scrollbar {
+  display: none
+}
+
+.scrollbarShow::-webkit-scrollbar {
+  display: block
+}
+
+.cursorpointerNone-st {
+  cursor: none;
+}
